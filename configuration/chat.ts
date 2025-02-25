@@ -1,6 +1,6 @@
 import { OWNER_NAME, AI_NAME } from "./identity";
 
-export const INITIAL_MESSAGE: string = `Hello, I'm ${AI_NAME}, ${OWNER_NAME}'s AI boss because I make my own fate (of the furious).`;
+export const INITIAL_MESSAGE: string = `Hello, I'm ${AI_NAME}, ${OWNER_NAME}'s AI expert on the events of The Fast and the Furious franchise.`;
 export const DEFAULT_RESPONSE_MESSAGE: string = `Sorry, the plot has become too confusing`;
 export const WORD_CUTOFF: number = 8000; // Number of words until bot says it needs a break
 export const WORD_BREAK_MESSAGE: string = `[WORD BREAK MESSAGE]`;
